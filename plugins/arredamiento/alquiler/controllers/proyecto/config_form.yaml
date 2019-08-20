@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Proyecto
+
+# Model Form Field configuration
+form: $/arredamiento/alquiler/models/proyecto/fields.yaml
+
+# Model Class name
+modelClass: Arredamiento\Alquiler\Models\Proyecto
+
+# Default redirect location
+defaultRedirect: arredamiento/alquiler/proyecto
+
+# Create page
+create:
+    title: Create Proyecto
+    redirect: arredamiento/alquiler/proyecto/update/:id
+    redirectClose: arredamiento/alquiler/proyecto
+
+# Update page
+update:
+    title: Edit Proyecto
+    redirect: arredamiento/alquiler/proyecto
+    redirectClose: arredamiento/alquiler/proyecto
+
+# Preview page
+preview:
+    title: Preview Proyecto

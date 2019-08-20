@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Equipo
+
+# Model Form Field configuration
+form: $/arredamiento/alquiler/models/equipo/fields.yaml
+
+# Model Class name
+modelClass: Arredamiento\Alquiler\Models\Equipo
+
+# Default redirect location
+defaultRedirect: arredamiento/alquiler/equipo
+
+# Create page
+create:
+    title: Create Equipo
+    redirect: arredamiento/alquiler/equipo/update/:id
+    redirectClose: arredamiento/alquiler/equipo
+
+# Update page
+update:
+    title: Edit Equipo
+    redirect: arredamiento/alquiler/equipo
+    redirectClose: arredamiento/alquiler/equipo
+
+# Preview page
+preview:
+    title: Preview Equipo

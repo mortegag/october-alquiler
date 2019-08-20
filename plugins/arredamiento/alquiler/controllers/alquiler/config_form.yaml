@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Alquiler
+
+# Model Form Field configuration
+form: $/arredamiento/alquiler/models/alquiler/fields.yaml
+
+# Model Class name
+modelClass: Arredamiento\Alquiler\Models\Alquiler
+
+# Default redirect location
+defaultRedirect: arredamiento/alquiler/alquiler
+
+# Create page
+create:
+    title: Create Alquiler
+    redirect: arredamiento/alquiler/alquiler/update/:id
+    redirectClose: arredamiento/alquiler/alquiler
+
+# Update page
+update:
+    title: Edit Alquiler
+    redirect: arredamiento/alquiler/alquiler
+    redirectClose: arredamiento/alquiler/alquiler
+
+# Preview page
+preview:
+    title: Preview Alquiler

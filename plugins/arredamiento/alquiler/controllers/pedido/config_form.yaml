@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Pedido
+
+# Model Form Field configuration
+form: $/arredamiento/alquiler/models/pedido/fields.yaml
+
+# Model Class name
+modelClass: Arredamiento\Alquiler\Models\Pedido
+
+# Default redirect location
+defaultRedirect: arredamiento/alquiler/pedido
+
+# Create page
+create:
+    title: Create Pedido
+    redirect: arredamiento/alquiler/pedido/update/:id
+    redirectClose: arredamiento/alquiler/pedido
+
+# Update page
+update:
+    title: Edit Pedido
+    redirect: arredamiento/alquiler/pedido
+    redirectClose: arredamiento/alquiler/pedido
+
+# Preview page
+preview:
+    title: Preview Pedido

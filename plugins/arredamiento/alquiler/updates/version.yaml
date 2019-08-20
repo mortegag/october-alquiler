@@ -1,0 +1,7 @@
+1.0.1:
+    - First version of Alquiler
+    - create_alquilers_table.php
+    - create_equipos_table.php
+    - create_pedidos_table.php
+    - create_proyectos_table.php
+    - add_pedido_to_users.php

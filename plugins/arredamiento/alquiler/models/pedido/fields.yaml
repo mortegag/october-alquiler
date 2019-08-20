@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        type: text
+        required: true
+    description:
+        label: Description
+        type: textarea
+        required: true
+    ends_at:
+        label: Ends At
+        type: datepicker
+        required: true
+proyecto_id:
+        label: Proyecto
+        type: dropdown
+equipo_id:
+        label: Equipo
+        type: dropdown
